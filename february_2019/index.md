@@ -95,8 +95,8 @@ They quickly responded and cooperatively worked on fixing all the issues found. 
 
 the following CVE IDs were assigned for the vulnerabilities:
 
-memcpy_rce.bt: CVE-2019-12551
-null_deref.bt: CVE-2019-12552
-strcat_heap_overflow.bt: CVE-2019-12553
-SubStr.bt: CVE-2019-12555
-WSubStr.bt: CVE-2019-12554
+https://github.com/ereisr00/bagofbugz/tree/master/010Editor/memcpy_rce.bt: CVE-2019-12551  
+https://github.com/ereisr00/bagofbugz/tree/master/010Editor/null_deref.bt: CVE-2019-12552  
+https://github.com/ereisr00/bagofbugz/tree/master/010Editor/strcat_heap_overflow.bt: CVE-2019-12553  
+https://github.com/ereisr00/bagofbugz/tree/master/010Editor/SubStr.bt: CVE-2019-12555  
+https://github.com/ereisr00/bagofbugz/tree/master/010Editor/WSubStr.bt: CVE-2019-12554
