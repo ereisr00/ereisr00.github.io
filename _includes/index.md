@@ -87,6 +87,16 @@ As 010Editor is a fairly popular product, these kinds of bugs can be used to att
 If a malicious template is uploaded to the central repository it could be used as an attack vector against anyone who downloads the template.
 It's also possible to exploit a non-malicious template that uses a vulnerable function by sending a malicious file to a victim machine and inducing the victim to open that file with 010Editor (a less promising attack vector).
 
-During the audit, numerous exploitable (and non exploitable) bugs were found.
+During the audit of 010 Editor version 9.0.1, numerous exploitable (and non exploitable) bugs were found.
 After gathering up the findings and completing the POC, I contacted Sweetscape and presented them with the findings.
-They quickly responded and cooperatively worked on fixing all the issues found.
+They quickly responded and cooperatively worked on fixing all the issues found. The bugs were fixed in version 9.0.2.
+
+### Update
+
+the following CVE IDs were assigned for the vulnerabilities:
+
+https://github.com/ereisr00/bagofbugz/tree/master/010Editor/memcpy_rce.bt: CVE-2019-12551  
+https://github.com/ereisr00/bagofbugz/tree/master/010Editor/null_deref.bt: CVE-2019-12552  
+https://github.com/ereisr00/bagofbugz/tree/master/010Editor/strcat_heap_overflow.bt: CVE-2019-12553  
+https://github.com/ereisr00/bagofbugz/tree/master/010Editor/SubStr.bt: CVE-2019-12555  
+https://github.com/ereisr00/bagofbugz/tree/master/010Editor/WSubStr.bt: CVE-2019-12554
