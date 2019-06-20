@@ -91,7 +91,7 @@ During the audit of 010 Editor version 9.0.1, numerous exploitable (and non expl
 After gathering up the findings and completing the POC, I contacted Sweetscape and presented them with the findings.
 They quickly responded and cooperatively worked on fixing all the issues found. The bugs were fixed in version 9.0.2.
 
-# Update
+### Update
 
 the following CVE IDs were assigned for the vulnerabilities:
 
